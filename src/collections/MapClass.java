@@ -21,6 +21,7 @@ public class MapClass {
         treeMap.put(1, "Bangladesh");
         treeMap.put(5, "USA");
         treeMap.put(3, "France");
+        System.out.println(treeMap.get(5)+"*******");
         for (int key:treeMap.keySet() ) {
             System.out.println(hashMap.get(key));
         }
